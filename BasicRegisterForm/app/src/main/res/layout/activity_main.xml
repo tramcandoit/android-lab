@@ -59,19 +59,6 @@
         android:layout_below="@+id/et_password"
         android:layout_alignParentRight="true">
     </Button>
-
-    <Button
-        android:id="@+id/btn_sign_up"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/margin_base"
-        android:layout_marginBottom="9dp"
-        android:padding="@dimen/margin_base"
-        android:text="@string/signup">
-    </Button>
-
     <Button
         android:id="@+id/btn_facebook"
         android:layout_width="300dp"
@@ -82,5 +69,16 @@
         android:layout_marginBottom="9dp"
         android:padding="@dimen/margin_base"
         android:text="@string/facebook">
+    </Button>
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_base"
+        android:layout_marginBottom="9dp"
+        android:padding="@dimen/margin_base"
+        android:text="@string/signup">
     </Button>
 </RelativeLayout>
