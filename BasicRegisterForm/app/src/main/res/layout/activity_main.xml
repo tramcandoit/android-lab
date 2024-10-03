@@ -12,8 +12,8 @@
         android:textAllCaps="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/margin_basex4"
-        android:textSize="@dimen/text_large">
-    </TextView>
+        android:textSize="@dimen/text_large"
+        />
     <TextView
         android:layout_marginTop="@dimen/margin_basex4"
         android:layout_width="100dp"
@@ -21,16 +21,15 @@
         android:text="@string/username"
         android:id="@+id/tv_user_name"
         android:layout_below="@+id/tv_sign_in"
-        android:layout_alignParentLeft="true">
-    </TextView>
+        android:layout_alignParentLeft="true" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/et_username"
         android:hint="name@gmail.com"
         android:layout_alignTop="@+id/tv_user_name"
-        android:layout_toRightOf="@+id/tv_user_name">
-    </EditText>
+        android:layout_toRightOf="@+id/tv_user_name"
+        />
     <TextView
         android:layout_marginTop="@dimen/margin_base"
         android:layout_width="100dp"
@@ -39,16 +38,15 @@
         android:id="@+id/tv_password"
         android:hint="******"
         android:layout_below="@+id/et_username"
-        android:layout_alignParentLeft="true">
-    </TextView>
+        android:layout_alignParentLeft="true" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/et_password"
         android:password="true"
         android:layout_alignTop="@+id/tv_password"
-        android:layout_toRightOf="@+id/tv_password">
-    </EditText>
+        android:layout_toRightOf="@+id/tv_password"
+        />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -57,19 +55,8 @@
         android:id="@+id/btn_sign_in"
         android:layout_marginTop="@dimen/margin_base"
         android:layout_below="@+id/et_password"
-        android:layout_alignParentRight="true">
-    </Button>
-    <Button
-        android:id="@+id/btn_facebook"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_above="@+id/btn_sign_up"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/margin_base"
-        android:layout_marginBottom="9dp"
-        android:padding="@dimen/margin_base"
-        android:text="@string/facebook">
-    </Button>
+        android:layout_alignParentRight="true"/>
+
     <Button
         android:id="@+id/btn_sign_up"
         android:layout_width="300dp"
@@ -79,6 +66,16 @@
         android:layout_marginTop="@dimen/margin_base"
         android:layout_marginBottom="9dp"
         android:padding="@dimen/margin_base"
-        android:text="@string/signup">
-    </Button>
+        android:text="@string/signup" />
+
+    <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/btn_sign_up"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_base"
+        android:layout_marginBottom="9dp"
+        android:padding="@dimen/margin_base"
+        android:text="@string/facebook" />
 </RelativeLayout>
