@@ -62,5 +62,14 @@ public class MainActivity extends AppCompatActivity {
             }
         }));
 
+        lv_name.setOnItemLongClickListener((new AdapterView.OnItemLongClickListener(){
+            @Override
+            public boolean onItemLongClick(AdapterView<?> arg0, View arg1,
+                                           int pos, long id) {
+                arr_name.remove(pos);
+                adapter.notifyDataSetChanged();
+                return false;
+            }
+        }));
     }
 }
