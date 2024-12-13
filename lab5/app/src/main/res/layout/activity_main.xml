@@ -7,11 +7,22 @@
     android:padding="@dimen/margin_base"
     tools:context="MainActivity">
 
+
     <TextView
         android:id="@+id/tv_request_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:text="Bùi Thị Ngọc Trăm - 22521497"
+        />
+
+    <TextView
+        android:id="@+id/tv_request_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
         android:text="@string/these_people_want_to_know_if_u_are_ok"
         />
 
